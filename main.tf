@@ -4,7 +4,7 @@ provider "aws" {
 
 
 resource "aws_instance" "web" {
-  ami           = "ami-073d88178d62ae806" # Nginx OSS
+  ami           = "ami-095b5e709476cf293" # Packer Ubuntu Basic 18 Bionic
   instance_type = "t3.micro"
 
   tags = {
