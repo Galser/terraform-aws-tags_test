@@ -4,7 +4,7 @@ provider "aws" {
 
 
 resource "aws_instance" "web" {
-  ami           = "ami-0050dc92851799082"
+  ami           = "ami-073d88178d62ae806" # Nginx OSS
   instance_type = "t3.micro"
 
   tags = {
